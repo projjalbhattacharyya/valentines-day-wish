@@ -1,0 +1,56 @@
+/* propose2.css */
+.buttons{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    position:relative;
+    height:60px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:1.2rem;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#yesBtn{
+    background:#ff4d6d;
+    color:white;
+}
+
+#noBtn{
+    background:#ddd;
+}
+
+#result{
+    margin-top:25px;
+    font-size:1.3rem;
+    color:#ff4d6d;
+    animation: fadeIn 1s ease;
+}
+
+/* floating hearts */
+
+.heart{
+    position:fixed;
+    bottom:-20px;
+    font-size:1.5rem;
+    animation: floatUp linear forwards;
+}
+
+@keyframes floatUp{
+    to{
+        transform:translateY(-110vh);
+        opacity:0;
+    }
+}
+
+
+#yesBtn{
+    position:relative;
+    z-index:2;
+}

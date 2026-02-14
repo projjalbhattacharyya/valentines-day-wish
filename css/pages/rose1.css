@@ -1,0 +1,55 @@
+/* rose1.css */
+#rose{
+    font-size:6rem;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#rose:active{
+    transform:scale(.9);
+}
+
+.hint{
+    margin-top:15px;
+    color:#777;
+    font-size:1rem;
+}
+
+/* falling petals */
+
+.petal{
+    position:fixed;
+    top:-50px;
+    font-size:1.5rem;
+    animation: fall linear forwards;
+}
+
+@keyframes fall{
+    to{
+        transform:translateY(110vh) rotate(360deg);
+        opacity:0;
+    }
+}
+
+.hidden{
+    display:none;
+}
+
+#continueBtn{
+    margin-top:15px;
+    padding:10px 25px;
+    font-size:1.2rem;
+    border:none;
+    border-radius:40px;
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+    animation: fadeIn 1s ease;
+}
+
+#afterMessage{
+    margin-top:15px;
+    color:#ff4d6d;
+    font-size:1.1rem;
+    animation: fadeIn 1.2s ease;
+}

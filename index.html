@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Love Story ❤️</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 class="title">Our Love Story 💖</h1>
+
+    <p class="subtitle">
+        I made something special just for you… <br>
+        A journey of love, one day at a time.
+    </p>
+
+    <button id="startBtn">Start Our Journey 🌹</button>
+
+</div>
+
+<script src="js/navigation.js"></script>
+<script>
+document.getElementById("startBtn").onclick = () => {
+    localStorage.setItem("progress","rose");
+    window.location.href = "pages/rose1.html";
+}
+</script>
+
+</body>
+</html>

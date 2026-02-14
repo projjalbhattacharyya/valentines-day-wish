@@ -1,0 +1,53 @@
+#gift{
+    font-size:6rem;
+    cursor:pointer;
+    transition:.4s;
+}
+
+#gift:active{
+    transform:scale(.9) rotate(10deg);
+}
+
+.hint{
+    margin-top:5px;
+    color:#777;
+}
+
+#message{
+    margin-top:10px;
+    color:#ff4d6d;
+    font-size:1.2rem;
+    animation: fadeIn 1s ease;
+}
+
+.hidden{
+    display:none;
+}
+
+#continueBtn{
+    margin-top:15px;
+    padding:10px 25px;
+    font-size:1.1rem;
+    border:none;
+    border-radius:40px;
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+}
+
+
+/* chocolate animation */
+
+.choco{
+    position:fixed;
+    bottom:-40px;
+    font-size:1.7rem;
+    animation: rise linear forwards;
+}
+
+@keyframes rise{
+    to{
+        transform:translateY(-120vh) rotate(360deg);
+        opacity:0;
+    }
+}

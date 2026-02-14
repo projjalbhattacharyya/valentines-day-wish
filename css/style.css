@@ -1,0 +1,43 @@
+/* style.css */
+body{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    background:#fff0f3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+}
+
+.container{
+    padding:20px;
+}
+
+.title{
+    font-family:'Great Vibes',cursive;
+    font-size:3rem;
+    color:#ff4d6d;
+}
+
+.subtitle{
+    margin:20px 0;
+    color:#444;
+    font-size:1.2rem;
+}
+
+button{
+    background:#ff4d6d;
+    border:none;
+    padding:15px 30px;
+    font-size:1.2rem;
+    color:white;
+    border-radius:50px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:active{
+    transform:scale(.95);
+}
